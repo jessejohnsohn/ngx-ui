@@ -6,7 +6,7 @@ import {
   ValidationErrors,
   FormGroup
 } from '@angular/forms';
-import { UserRegister } from '@jesse-johnson/shared/utility/authentication';
+import { UserRegister } from '@jesse-johnson/shared/ngx-utility/authentication';
 
 const registerFormConfig: { [K in keyof UserRegister]: any } = {
   emailAddress: ['', [Validators.required]],

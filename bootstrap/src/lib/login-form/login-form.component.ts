@@ -7,7 +7,7 @@ import {
   NgControl,
   FormGroup
 } from '@angular/forms';
-import { UserLogin } from '@jesse-johnson/shared/utility/authentication';
+import { UserLogin } from '@jesse-johnson/shared/ngx-utility/authentication';
 
 const loginFormConfig: { [K in keyof UserLogin]: any } = {
   emailAddress: ['', [Validators.required]],

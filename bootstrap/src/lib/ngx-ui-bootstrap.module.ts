@@ -11,4 +11,4 @@ import { RegisterComponent } from './register-form/register-form.component';
   declarations: [FixedNavBarComponent, LoginComponent, RegisterComponent],
   exports: [FixedNavBarComponent, LoginComponent, RegisterComponent]
 })
-export class SharedUiBootstrapModule {}
+export class NgxUiBootstrapModule {}

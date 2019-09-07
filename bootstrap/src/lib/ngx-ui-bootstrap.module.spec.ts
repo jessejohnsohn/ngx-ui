@@ -1,15 +1,15 @@
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { async, TestBed } from '@angular/core/testing';
-import { SharedUiBootstrapModule } from './shared-ui-bootstrap.module';
+import { NgxUiBootstrapModule } from './ngx-ui-bootstrap.module';
 
 describe('SharedUiBootstrapModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [SharedUiBootstrapModule, FormsModule, ReactiveFormsModule]
+      imports: [NgxUiBootstrapModule, FormsModule, ReactiveFormsModule]
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(SharedUiBootstrapModule).toBeDefined();
+    expect(NgxUiBootstrapModule).toBeDefined();
   });
 });

@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { SharedUiMaterialModule } from './shared-ui-material.module';
+import { NgxUiMaterialModule } from './ngx-ui-material.module';
 
 describe('SharedUiMaterialModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [SharedUiMaterialModule]
+      imports: [NgxUiMaterialModule]
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(SharedUiMaterialModule).toBeDefined();
+    expect(NgxUiMaterialModule).toBeDefined();
   });
 });

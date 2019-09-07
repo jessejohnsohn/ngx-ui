@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-material.module';
+export * from './lib/ngx-ui-material.module';
